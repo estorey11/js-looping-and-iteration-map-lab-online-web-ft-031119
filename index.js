@@ -12,8 +12,8 @@ function nameToAttributes(names){
   })
 }
 
-function lowerCaseDrivers(drivers){
+function attributesToPhrase(drivers){
   return drivers.map(function(driver){
-    return driver.toLowerCase()
+    return `driver`
   })
 }
