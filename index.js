@@ -5,9 +5,9 @@ function lowerCaseDrivers(drivers){
   })
 }
 
-function nameToAttributes(drivers){
-  return drivers.map(function(driver){
-    names=driver.split(" ")
-    return {firstName: names[0], lastName: names[1]}
+function nameToAttributes(names){
+  return names.map(function(name){
+    pieces=name.split(" ")
+    return {firstName: pieces[0], lastName: pieces[1]}
   })
 }
