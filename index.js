@@ -11,3 +11,9 @@ function nameToAttributes(names){
     return {firstName: pieces[0], lastName: pieces[1]}
   })
 }
+
+function lowerCaseDrivers(drivers){
+  return drivers.map(function(driver){
+    return driver.toLowerCase()
+  })
+}
